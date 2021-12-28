@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Ole&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url(../portfolio/4a94268541d7a0ed95a8be5138e8a288.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 700px;
+    background-color: rgba(17, 17, 56, 0.877);
+    width:min-content;
+    height: max-content;
+  }
+
+
+/*navbar*/
+.continair{
+    background-color: black;
+left: 0px;
+padding-left: 36px;
+padding-right: 8px;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 20;
+}
+
+.portfolio{
+    position:fixed;
+    color: #fff;
+    position:relative;
+    width: 130px;
+    left: 6px;
+    font-size: 50px;
+    font-family: 'Ole', cursive;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+    padding: 0 0 5px 0;
+    display: flex;
+    position: absolute;
+    margin: -39px;
+    top: 50px;
+    right: 10%;
+    height: 40Px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s ease;
+
+}
+ a{ 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    padding:  5px 5px 5px 5px;
+    transition: 0.7s ease;
+}
+
+.nav:hover{
+    
+    border-radius: 10px;
+}
+
+.nav a:hover{
+    color: cornflowerblue;
+    padding: 5px 5px 5px 5px;
+    border-bottom: 2px solid rgb(60, 60, 129);
+    position:relative;
+    width: 60px;
+    
+}
+
+@media(max-width:800px)
+{
+    .continair{
+    width: 610Px;
+    }
+    .portfolio{
+        padding: 0px 0 0 220px;
+        
+    }
+    .nav 
+    {
+        
+    position: relative;
+     margin: 40px 60px;
+     padding: 0px -5px 5px 15px;
+     right: 100px;
+    }
+}
+
+@media(max-width:800px)
+{
+    .portfolio{
+        margin-left: -110px;
+    }
+    .nav{
+        margin-left: -210px;
+    }
+}
+
+
+
+
+/*homme*/
+.homme{
+    position:relative;
+    margin-top: 20%;
+    left: 50px;
+    
+    width: 300px;
+    height: 150px;
+}
+.me{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+  
+}
+.p{
+    font-size: larger;
+    position: absolute;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+
+/*project*/
+.project1{
+    color: oldlace;
+    position: fixed;
+    margin: 450px 50px;
+    border-radius: 10px;
+    position: relative;
+    left: 200px;
+    height: 350px;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(117, 117, 117, 0.555) ;
+    z-index: 19;
+}
+
+.h2{
+    margin: 30px;
+    font-size:40px;
+}
+
+.projectp{
+    position: relative;
+    margin: 65px -20px;
+    font-size: 20px;
+}
+
+
+/*sckils*/
+
+.sckils1{
+    color: oldlace;
+    position:relative;
+    margin: -800px 320px;
+    left: 300px;
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(117, 117, 117, 0.555) ;
+}
+.h3{
+    margin: 30px;
+    font-size:40px;
+}
+
+.sckilsp{
+    position: relative;
+    margin: 65px -20px;
+    font-size: 20px;
+}
+
+@media(max-width:1000px)
+{
+
+     .nav{
+         position: absolute;
+       left:200px;
+     }
+    .sckils1{
+        position:absolute;
+        margin: 10px ;
+        left: 35px;
+        margin-top: -400px;
+
+    }
+
+    .project1{
+     left: -5px;
+    }
+
+}
+
+/*form*/
+
+section{
+    background-color: rgb(67, 67, 117);
+    width: 1263px;
+    height: 525px;
+    position: relative;
+    top: 900PX;
+    text-align:left;
+}
+.form{
+   background-color: rgb(34, 34, 63);
+   border-radius: 10px;
+   width: 350px;
+   height: 450px;
+   position:relative;
+   left: 65%;
+   top: 20px;
+   padding: 10px 0px 0px 40px;
+
+}
+
+h1{ color: white;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+    text-align: center;
+    right: 5px;
+}
+
+
+
+.input1{
+    margin-top: 30px;
+    align-items: center;
+}
+.name{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    background: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    height: 25px;
+    text-align: center;
+    margin-top: 10px;
+    left: 55px;
+    width: 200px;
+    
+    
+}
+
+
+
+.input3{
+    
+    margin-top: 5px;
+}
+.email{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    background: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    height: 25px;
+   text-align: center;
+    margin-top: 10px;
+    width: 210px;
+    left: 55px;
+}
+
+.input4{
+    margin-top: 5px;
+}
+.message{
+    font-size: 17px;
+    color: white;
+    position: relative;
+    background: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 200px;
+    margin-top: 10px;
+    width: 270px;
+    left: 20px;
+    
+    
+
+}
+
+.button{
+    position: relative;
+    left:60px;
+   
+}
+
+.submit{
+  
+    position: relative;
+    font-size: 15px;
+    color: white;
+     left: 30px;
+    background: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 75px;
+    height: 30px;
+    margin-top: 15px;
+    transition: 0.7s ease;
+}
+
+.submit:hover{
+    width:90px;
+    background-color:rgb(57, 57, 100) ;
+ 
+}
+ 
+@media(max-width:1000px)
+{
+
+    section{
+        width: 1226px;
+        height: 700px;
+    }
+    .form{
+        position: relative;
+        left: 5px;
+        z-index: 10;
+    }
+    
+
+}
+
+
+
+/*cocial media*/
+
+.facbook{
+    height: 50px;
+    position: relative;
+    margin: -550px -400px 60px -5px;
+    border-radius: 180px;
+     transition:0.9s ease;
+}
+
+.facbook:hover{
+   
+    height: 57px;
+  
+}
+
+.insta{
+    height: 50px;
+    position: relative;
+    margin: -540px -580px 80px 60px;
+    border-radius: 180px;
+    transition:0.9s ease;   
+}
+
+.insta:hover{
+   
+    height: 57px;
+    
+}
+.twitter{
+    height: 50px;
+    position: relative;
+    margin: -550px -580px 95px 125px;
+    border-radius: 180px; 
+    transition:0.9s ease;
+}
+
+.twitter:hover{
+   
+    height: 57px;
+   
+}
+
+.work{
+    position: relative;
+    margin:-400px 0 0 60px;
+    font-size: 40px;
+    color: rgb(162, 170, 204);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.lets{
+    color: rgb(1, 11, 44);
+    font-family: 'Staatliches', cursive;
+    font-size: 64px;
+}
+
+.cpirait{
+    position: absolute;
+    margin: 280px 0 0 30px;
+}
+
+
+@media(max-width:1000px)
+{
+
+    .cpirait{
+        margin: 515px 100px 10px 60px;
+        margin-left: 1px;  
+    }
+    .facbook{
+        margin: -550px -400px -200px -5px;
+        left: 10px;
+    }
+
+    .insta{
+        margin: -550px -440px -180px 60px;
+        left: 70px;
+    }
+    .twitter{
+        margin: -550px -450px -160px 60px;
+        left: 200px; 
+    }
+    .workp{
+        font-size: 30px;
+        margin-top: 380px;
+        margin-left: -55px;
+        margin-bottom: -400px;
+    } 
+    
+
+}
